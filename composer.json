@@ -1,0 +1,42 @@
+{
+  "name": "dotburo/pow",
+  "type": "project",
+  "description": "WordPress application framework",
+  "version": "0.0.0",
+  "keywords": [
+    "wordpress",
+    "wp",
+    "wordpress-boilerplate",
+    "wordpress-starter-theme"
+  ],
+  "homepage": "https://github.com/dotburo/pow",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "dotburo",
+      "email": "hello@dotburo.org",
+      "homepage": "https://dotburo.org/pow"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/dotburo/pow/issues"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.1",
+    "dotburo/pow-framework": "*",
+    "johnpbloch/wordpress": "4.9.6"
+  },
+  "extra": {
+    "wordpress-install-dir": "public/wp"
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "php install.php pre"
+    ],
+    "post-create-project-cmd": [
+      "php install.php post"
+    ]
+  }
+}

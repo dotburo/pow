@@ -1,0 +1,29 @@
+{
+  "name": "@dotburo/pow",
+  "description": "WordPress application framework.",
+  "version": "0.0.0",
+  "keywords": [
+    "wordpress",
+    "wp",
+    "wordpress-boilerplate",
+    "wordpress-starter-theme"
+  ],
+  "license": "GPL-3.0+",
+  "author": {
+    "name": "dotburo",
+    "email": "a.coolsaet@brightfish.be",
+    "url": "https://brightfish.be"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dotburo/pow/"
+  },
+  "scripts": {
+    "watch": "APP_ENV=development webpack --config webpack.config.js",
+    "build": "APP_ENV=production webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
