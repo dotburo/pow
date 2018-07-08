@@ -23,7 +23,7 @@ define('WP_PLUGIN_URL', WP_SITEURL . '/wp-plugins');
 define('WPMU_PLUGIN_DIR', "$public_dir/wp/wp-mu-plugins");
 define('WPMU_PLUGIN_URL', WP_SITEURL . '/wp-mu-plugins');
 define('UPLOADS', "$public_dir/uploads");
-define('WP_LANG_DIR', "$root_dir/languages");
+define('WP_LANG_DIR', "$root_dir/storage/languages");
 
 
 # Database
