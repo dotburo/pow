@@ -1,4 +1,4 @@
-<?php /* Plugin Name: Load Pow */
+<?php /* Plugin Name: Test Pow */
 
 add_action('muplugins_loaded', function () {
     echo 'pow: muplugins_loaded', '<br>';
@@ -29,4 +29,9 @@ add_filter('pre_get_posts', function ($query) {
     echo 'is_page: ', $query->is_page(), '<br>';
     echo 'is_search: ', $query->is_search(), '<br>';
     echo 'is_archive: ', $query->is_archive(), '<br>';
+    echo 'folders: ', '<br>',
+    'tpl dir: ', get_template_directory(), '<br>',
+    'tpl dir uri: ', get_template_directory_uri(), '<br>',
+    'plugins url: ', plugins_url(), '<br>',
+    'content url: ', content_url(), '<br>';
 }, PHP_INT_MAX - 1, 1);

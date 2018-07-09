@@ -1,4 +1,8 @@
 <?php
+$root_dir = dirname(__DIR__);
+$public_dir = $root_dir . '/public';
+$is_production = env('APP_ENV') === 'production';
+
 
 # APP URLs & protocol
 #
