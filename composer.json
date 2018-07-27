@@ -9,13 +9,13 @@
     "wordpress-boilerplate",
     "wordpress-starter-theme"
   ],
-  "homepage": "https://github.com/dotburo/pow",
+  "homepage": "https://pow.dotburo.org/",
   "license": "GPL-3.0+",
   "authors": [
     {
       "name": "dotburo",
       "email": "hello@dotburo.org",
-      "homepage": "https://dotburo.org/pow"
+      "homepage": "https://dotburo.org"
     }
   ],
   "support": {
@@ -27,6 +27,14 @@
     "php": ">=7.1",
     "dotburo/pow-framework": "*",
     "johnpbloch/wordpress": "4.9.6"
+  },
+  "autoload": {
+    "files": [
+      "php/Helpers/helpers.php"
+    ],
+    "psr-4": {
+      "App\\": "php/"
+    }
   },
   "extra": {
     "wordpress-install-dir": "public/wp"

@@ -1,5 +1,17 @@
 #!/usr/bin/env php
 <?php
+/**
+ * Install Pow
+ *
+ * @todo Q&A => db setup
+ * @todo no comments ? => clean up db, set options
+ * @todo create Site Manager role ?
+ *
+ * @package Pow
+ * @version 0.0.0
+ * @since 0.0.0
+ */
+
 $public_dir = __DIR__ . '/public';
 $wp_dir = $public_dir . '/wp';
 $run = $argv[1] ?? null;
