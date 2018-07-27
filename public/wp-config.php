@@ -1,23 +1,35 @@
 <?php
 
-# Add the Composer autoloader
 #
-
+# Add Composer's autoloader
+# ````
+#
 require_once(dirname(__DIR__) . '/vendor/autoload.php');
 
-# Start the application
 #
-
+# Instantiate the application
+# ````
+#
 $app = new Pow\Pow(
     realpath(__DIR__ . '/../')
 );
 
-# Define WordPress constants
 #
-
-require_once(dirname(__DIR__) . '/config/wordpress.php');
-
-# Setup WordPress variables and includes
+# Define environment variables & WordPress constants
+# ````
 #
+new \Pow\Configuration\LoadEnvironment($app->getBasePath());
 
+#
+# Load most of WordPress
+# ````
+#
 require_once(ABSPATH . 'wp-settings.php');
+
+#
+# Run
+# ````
+#
+if ($app->WP_SIDE === 'site') {
+    $app->run();
+}

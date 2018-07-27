@@ -3,17 +3,17 @@
 use Pow\Controllers\ControllerAbstract;
 
 /**
- * Posts Controller
+ * Default fallback controller
  *
  * @package App\Controllers
  * @version 0.0.0
  * @since 0.0.0
  */
-class PostController extends ControllerAbstract
+class DefaultController extends ControllerAbstract
 {
     public function render($models, $wp_query)
     {
-        //echo 'PostController render!', '<br>';
+        //echo 'DefaultController render!', '<br>';
         //dd($models, $wp_query);
         $this->app->view('pages.posts');
     }

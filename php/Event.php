@@ -3,13 +3,13 @@
 use Pow\Models\Model;
 
 /**
- * Post Model
+ * Event model
  *
  * @package App
  * @version 0.0.0
  * @since 0.0.0
  */
-class Post extends Model
+class Event extends Model
 {
 
 }
