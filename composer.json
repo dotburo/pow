@@ -25,8 +25,8 @@
   "prefer-stable": true,
   "require": {
     "php": ">=7.1",
-    "dotburo/pow-framework": "*",
-    "johnpbloch/wordpress": "4.9.6"
+    "johnpbloch/wordpress": "4.9.6",
+    "dotburo/pow-framework": "*"
   },
   "autoload": {
     "files": [

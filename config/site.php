@@ -24,6 +24,13 @@ return [
 
 
     #
+    # Display toolbar
+    # ````
+    #
+    'force_hide_toolbar' => true,
+
+
+    #
     # Toggle theme features
     # ````
     # @see https://developer.wordpress.org/reference/functions/add_theme_support/
@@ -86,6 +93,4 @@ return [
         'feed_links_show_comments_feed' => false,
     ],
 
-
-    //'force_hide_toolbar' =>
 ];

@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Global app configuration options
  *
@@ -8,6 +7,20 @@
  * @since 0.0.0
  */
 return [
+
+    #
+    # Toolbar
+    # ````
+    #
+    'toolbar'  => [
+
+        'logo' => false,
+        'howdy' => false,
+        'username' => false,
+        'search' => false,
+        'view-site-submenu' => false
+    ],
+
 
     #
     # Services for the application service container

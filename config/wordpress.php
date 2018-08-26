@@ -20,17 +20,23 @@ define('DISALLOW_FILE_EDIT', true);
 define('DISALLOW_FILE_MODS', $is_production);
 
 #
-# Customized directories
+# Paths & URLs
 # ````
 #
+define('ABSPATH', "$root_dir/public/wp/");
 define('WP_CONTENT_DIR', $public_dir);
 define('WP_CONTENT_URL', WP_HOME);
 define('WP_PLUGIN_DIR', "$public_dir/wp/wp-plugins");
 define('WP_PLUGIN_URL', WP_SITEURL . '/wp-plugins');
 define('WPMU_PLUGIN_DIR', "$public_dir/wp/wp-mu-plugins");
 define('WPMU_PLUGIN_URL', WP_SITEURL . '/wp-mu-plugins');
-define('UPLOADS', "$public_dir/uploads");
 define('WP_LANG_DIR', "$root_dir/storage/languages");
+
+# Since it is always appended to ``ABSPATH``, the ``UPLOADS`` constant is not defined through Pow.
+# The following serve the install script to define ``upload_path`` and ``upload_url_path`` in the database.
+# @see wp/wp-includes/functions.php
+define('POW_UPLOADS_DIR', "$public_dir/uploads");
+define('POW_UPLOADS_URL', WP_HOME . '/uploads');
 
 #
 # Database
@@ -58,7 +64,7 @@ define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
 define('NONCE_SALT', env('NONCE_SALT'));
 
 #
-# Authentication keys and salts
+# Custom settings
 # ````
 #
 define('AUTOMATIC_UPDATER_DISABLED', true);
@@ -78,9 +84,3 @@ define('WP_DEBUG', env('APP_DEBUG', !$is_production));
 if (env('APP_DEBUG')) {
     ini_set('error_log', "$root_dir/storage/logs/debug.log");
 }
-
-#
-# Bootstrap WP
-# ````
-#
-if (!defined('ABSPATH')) define('ABSPATH', "$root_dir/public/wp/");

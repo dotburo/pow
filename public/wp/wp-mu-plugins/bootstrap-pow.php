@@ -15,7 +15,6 @@
 $actions = [
     'muplugins_loaded',
     'plugins_loaded',
-    'load_textdomain',
     'after_setup_theme',
     'init',
     'wp_loaded'
