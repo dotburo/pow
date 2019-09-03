@@ -1,0 +1,541 @@
+[07-Jan-2019 20:46:37 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:46:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:46:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:46:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:46:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:46:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:46:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:46:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:46:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Class WP_SIDE does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('WP_SIDE')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('WP_SIDE')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('WP_SIDE', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('WP_SIDE')
+#4 C:\www\reggie-2\vendor\illuminate\container\Container.php(1258): Illuminate\Container\Container->offsetGet('WP_SIDE')
+#5 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(249): Illuminate\Container\Container->__get('WP_SIDE')
+#6 C:\www\reggie-2\public\wp-config.php(27): Pow\Pow->run()
+#7 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\wp\wp-cron.php(33): requir in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 20:46:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:46:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:46:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Class WP_SIDE does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('WP_SIDE')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('WP_SIDE')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('WP_SIDE', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('WP_SIDE')
+#4 C:\www\reggie-2\vendor\illuminate\container\Container.php(1258): Illuminate\Container\Container->offsetGet('WP_SIDE')
+#5 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(249): Illuminate\Container\Container->__get('WP_SIDE')
+#6 C:\www\reggie-2\public\wp-config.php(27): Pow\Pow->run()
+#7 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\wp\wp-blog-header.php(13): in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 20:47:00 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:00 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:00 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:00 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:00 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Class WP_SIDE does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('WP_SIDE')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('WP_SIDE')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('WP_SIDE', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('WP_SIDE')
+#4 C:\www\reggie-2\vendor\illuminate\container\Container.php(1258): Illuminate\Container\Container->offsetGet('WP_SIDE')
+#5 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(249): Illuminate\Container\Container->__get('WP_SIDE')
+#6 C:\www\reggie-2\public\wp-config.php(27): Pow\Pow->run()
+#7 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\wp\wp-blog-header.php(13): in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 20:47:31 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:31 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:31 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:31 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:31 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:31 UTC] PHP Warning:  Only arrays and Traversables can be unpacked in C:\www\reggie-2\vendor\pow\framework\src\Helpers\helpers.php on line 12
+[07-Jan-2019 20:47:31 UTC] PHP Warning:  var_dump() expects at least 1 parameter, 0 given in C:\www\reggie-2\vendor\pow\framework\src\Helpers\helpers.php on line 12
+[07-Jan-2019 20:47:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:40 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:47:40 UTC] PHP Warning:  Only arrays and Traversables can be unpacked in C:\www\reggie-2\vendor\pow\framework\src\Helpers\helpers.php on line 12
+[07-Jan-2019 20:47:40 UTC] PHP Warning:  var_dump() expects at least 1 parameter, 0 given in C:\www\reggie-2\vendor\pow\framework\src\Helpers\helpers.php on line 12
+[07-Jan-2019 20:50:16 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:16 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:16 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:16 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:16 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:16 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:16 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:16 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:16 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:16 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:25 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:25 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:25 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:25 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:25 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:25 UTC] PHP Fatal error:  Uncaught ReflectionException: Class WP_SIDE does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('WP_SIDE')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('WP_SIDE')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('WP_SIDE', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('WP_SIDE')
+#4 C:\www\reggie-2\vendor\illuminate\container\Container.php(1258): Illuminate\Container\Container->offsetGet('WP_SIDE')
+#5 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(249): Illuminate\Container\Container->__get('WP_SIDE')
+#6 C:\www\reggie-2\public\wp-config.php(27): Pow\Pow->run()
+#7 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\wp\wp-blog-header.php(13): in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 20:50:36 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:36 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:36 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:36 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:36 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:50:36 UTC] PHP Fatal error:  Uncaught ReflectionException: Class WP_SIDE does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('WP_SIDE')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('WP_SIDE')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('WP_SIDE', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('WP_SIDE')
+#4 C:\www\reggie-2\vendor\illuminate\container\Container.php(1258): Illuminate\Container\Container->offsetGet('WP_SIDE')
+#5 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): Illuminate\Container\Container->__get('WP_SIDE')
+#6 C:\www\reggie-2\public\wp-config.php(27): Pow\Pow->run()
+#7 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\wp\wp-blog-header.php(13): in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 20:51:37 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:37 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:37 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:37 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:37 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:37 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:37 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:37 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Class WP_SIDE does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('WP_SIDE')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('WP_SIDE')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('WP_SIDE', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('WP_SIDE')
+#4 C:\www\reggie-2\vendor\illuminate\container\Container.php(1258): Illuminate\Container\Container->offsetGet('WP_SIDE')
+#5 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(249): Illuminate\Container\Container->__get('WP_SIDE')
+#6 C:\www\reggie-2\public\wp-config.php(27): Pow\Pow->run()
+#7 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\wp\wp-cron.php(33): requir in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 20:51:37 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:37 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Class WP_SIDE does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('WP_SIDE')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('WP_SIDE')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('WP_SIDE', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('WP_SIDE')
+#4 C:\www\reggie-2\vendor\illuminate\container\Container.php(1258): Illuminate\Container\Container->offsetGet('WP_SIDE')
+#5 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(249): Illuminate\Container\Container->__get('WP_SIDE')
+#6 C:\www\reggie-2\public\wp-config.php(27): Pow\Pow->run()
+#7 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\wp\wp-blog-header.php(13): in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 20:51:56 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:56 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:56 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:56 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:56 UTC] PHP Notice:  Undefined variable: name in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 199
+[07-Jan-2019 20:51:56 UTC] PHP Fatal error:  Uncaught ReflectionException: Class WP_SIDE does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('WP_SIDE')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('WP_SIDE')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('WP_SIDE', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('WP_SIDE')
+#4 C:\www\reggie-2\vendor\illuminate\container\Container.php(1258): Illuminate\Container\Container->offsetGet('WP_SIDE')
+#5 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(249): Illuminate\Container\Container->__get('WP_SIDE')
+#6 C:\www\reggie-2\public\wp-config.php(27): Pow\Pow->run()
+#7 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\wp\wp-blog-header.php(13): in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 20:53:48 UTC] PHP Fatal error:  Uncaught ReflectionException: Method Pow\Configuration\ConfigurationProvider::boot() does not exist in C:\www\reggie-2\vendor\illuminate\container\BoundMethod.php:137
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\BoundMethod.php(137): ReflectionMethod->__construct(Object(Pow\Configuration\ConfigurationProvider), 'boot')
+#1 C:\www\reggie-2\vendor\illuminate\container\BoundMethod.php(115): Illuminate\Container\BoundMethod::getCallReflector(Array)
+#2 C:\www\reggie-2\vendor\illuminate\container\BoundMethod.php(29): Illuminate\Container\BoundMethod::getMethodDependencies(Object(Pow\Pow), Array, Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#4 C:\www\reggie-2\vendor\illuminate\container\BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Pow\Pow), Array, Object(Closure))
+#5 C:\www\reggie-2\vendor\illuminate\container\Container.php(572): Illuminate\Container\BoundMethod::call(Object in C:\www\reggie-2\vendor\illuminate\container\BoundMethod.php on line 137
+[07-Jan-2019 20:54:27 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\www\reggie-2\vendor\pow\framework\src\Pow.php:201
+Stack trace:
+#0 C:\www\reggie-2\public\wp\wp-mu-plugins\bootstrap-pow.php(25): Pow\Pow->trigger('muplugins_loade...', Array)
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(286): {closure}('')
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-settings.php(278): do_action('muplugins_loade...')
+#5 C:\www\reggie-2\public\wp-config.php(21): require_once('C:\\www\\reggie-2...')
+#6 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#7 C:\www\reggie-2\public\wp\wp-blog-header.php(13): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#9 {main}
+  thrown in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 201
+[07-Jan-2019 20:54:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\www\reggie-2\vendor\pow\framework\src\Pow.php:201
+Stack trace:
+#0 C:\www\reggie-2\public\wp\wp-mu-plugins\bootstrap-pow.php(25): Pow\Pow->trigger('muplugins_loade...', Array)
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(286): {closure}('')
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-settings.php(278): do_action('muplugins_loade...')
+#5 C:\www\reggie-2\public\wp-config.php(21): require_once('C:\\www\\reggie-2...')
+#6 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#7 C:\www\reggie-2\public\wp\wp-blog-header.php(13): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#9 {main}
+  thrown in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 201
+[07-Jan-2019 20:55:31 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\www\reggie-2\vendor\pow\framework\src\Pow.php:201
+Stack trace:
+#0 C:\www\reggie-2\public\wp\wp-mu-plugins\bootstrap-pow.php(25): Pow\Pow->trigger('muplugins_loade...', Array)
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(286): {closure}('')
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-settings.php(278): do_action('muplugins_loade...')
+#5 C:\www\reggie-2\public\wp-config.php(21): require_once('C:\\www\\reggie-2...')
+#6 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#7 C:\www\reggie-2\public\wp\wp-blog-header.php(13): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#9 {main}
+  thrown in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 201
+[07-Jan-2019 20:55:36 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\www\reggie-2\vendor\pow\framework\src\Pow.php:201
+Stack trace:
+#0 C:\www\reggie-2\public\wp\wp-mu-plugins\bootstrap-pow.php(25): Pow\Pow->trigger('muplugins_loade...', Array)
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(286): {closure}('')
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-settings.php(278): do_action('muplugins_loade...')
+#5 C:\www\reggie-2\public\wp-config.php(21): require_once('C:\\www\\reggie-2...')
+#6 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#7 C:\www\reggie-2\public\wp\wp-blog-header.php(13): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#9 {main}
+  thrown in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 201
+[07-Jan-2019 20:56:05 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\www\reggie-2\vendor\pow\framework\src\Pow.php:201
+Stack trace:
+#0 C:\www\reggie-2\public\wp\wp-mu-plugins\bootstrap-pow.php(25): Pow\Pow->trigger('muplugins_loade...', Array)
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(286): {closure}('')
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-settings.php(278): do_action('muplugins_loade...')
+#5 C:\www\reggie-2\public\wp-config.php(21): require_once('C:\\www\\reggie-2...')
+#6 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#7 C:\www\reggie-2\public\wp\wp-blog-header.php(13): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#9 {main}
+  thrown in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 201
+[07-Jan-2019 20:59:41 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\www\reggie-2\vendor\pow\framework\src\Pow.php:201
+Stack trace:
+#0 C:\www\reggie-2\public\wp\wp-mu-plugins\bootstrap-pow.php(25): Pow\Pow->trigger('muplugins_loade...', Array)
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(286): {closure}('')
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-settings.php(278): do_action('muplugins_loade...')
+#5 C:\www\reggie-2\public\wp-config.php(21): require_once('C:\\www\\reggie-2...')
+#6 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#7 C:\www\reggie-2\public\wp\wp-blog-header.php(13): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#9 {main}
+  thrown in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 201
+[07-Jan-2019 21:00:51 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\www\reggie-2\vendor\pow\framework\src\Pow.php:201
+Stack trace:
+#0 C:\www\reggie-2\public\wp\wp-mu-plugins\bootstrap-pow.php(25): Pow\Pow->trigger('muplugins_loade...', Array)
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(286): {closure}('')
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-settings.php(278): do_action('muplugins_loade...')
+#5 C:\www\reggie-2\public\wp-config.php(21): require_once('C:\\www\\reggie-2...')
+#6 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#7 C:\www\reggie-2\public\wp\wp-blog-header.php(13): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#9 {main}
+  thrown in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 201
+[07-Jan-2019 21:01:57 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\www\reggie-2\vendor\pow\framework\src\Pow.php:201
+Stack trace:
+#0 C:\www\reggie-2\public\wp\wp-mu-plugins\bootstrap-pow.php(25): Pow\Pow->trigger('muplugins_loade...', Array)
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(286): {closure}('')
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-settings.php(278): do_action('muplugins_loade...')
+#5 C:\www\reggie-2\public\wp-config.php(21): require_once('C:\\www\\reggie-2...')
+#6 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#7 C:\www\reggie-2\public\wp\wp-blog-header.php(13): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#9 {main}
+  thrown in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 201
+[07-Jan-2019 21:02:05 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\www\reggie-2\vendor\pow\framework\src\Pow.php:201
+Stack trace:
+#0 C:\www\reggie-2\public\wp\wp-mu-plugins\bootstrap-pow.php(25): Pow\Pow->trigger('muplugins_loade...', Array)
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(286): {closure}('')
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-settings.php(278): do_action('muplugins_loade...')
+#5 C:\www\reggie-2\public\wp-config.php(21): require_once('C:\\www\\reggie-2...')
+#6 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#7 C:\www\reggie-2\public\wp\wp-blog-header.php(13): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#9 {main}
+  thrown in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 201
+[07-Jan-2019 21:02:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Pow\Models\Services\ModellingService' not found in C:\www\reggie-2\vendor\pow\framework\src\Modelling\Providers\ModellingServiceProvider.php:22
+Stack trace:
+#0 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(201): Pow\Modelling\Providers\ModellingServiceProvider->register(Array)
+#1 C:\www\reggie-2\public\wp\wp-mu-plugins\bootstrap-pow.php(25): Pow\Pow->trigger('plugins_loaded', Array)
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(286): {closure}('')
+#3 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 C:\www\reggie-2\public\wp\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\www\reggie-2\public\wp\wp-settings.php(327): do_action('plugins_loaded')
+#6 C:\www\reggie-2\public\wp-config.php(21): require_once('C:\\www\\reggie-2...')
+#7 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\wp\wp-blog-header.php(13): require_once('C:\\www\\reggie-2...')
+#9 C:\www\regg in C:\www\reggie-2\vendor\pow\framework\src\Modelling\Providers\ModellingServiceProvider.php on line 22
+[07-Jan-2019 21:03:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Class controller does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('controller')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('controller')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('controller', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('controller')
+#4 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(251): Illuminate\Container\Container->offsetGet('controller')
+#5 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#8 C:\www\reggie-2\pu in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:03:18 UTC] PHP Fatal error:  Uncaught ReflectionException: Class controller does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('controller')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('controller')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('controller', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('controller')
+#4 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(251): Illuminate\Container\Container->offsetGet('controller')
+#5 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#8 C:\www\reggie-2\pu in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:06:26 UTC] PHP Fatal error:  Uncaught ReflectionException: Class controller does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('controller')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('controller')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('controller', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('controller')
+#4 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(252): Illuminate\Container\Container->offsetGet('controller')
+#5 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#8 C:\www\reggie-2\pu in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:06:44 UTC] PHP Fatal error:  Uncaught ReflectionException: Class controller does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('controller')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('controller')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('controller', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('controller')
+#4 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(252): Illuminate\Container\Container->offsetGet('controller')
+#5 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#8 C:\www\reggie-2\pu in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:07:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class controller does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('controller')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('controller')
+#2 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(252): Illuminate\Container\Container->resolve('controller')
+#3 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#4 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp.php(726): do_action_ref_array('wp', Array)
+#7 C:\www\reggie-2\public\wp\wp-includes\functions.php(960): WP->main('')
+#8 C:\www\reggie-2\public\wp\wp-blog-header.php(16): wp()
+#9 C:\www\reggie-2\public\index.php(2): requi in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:10:11 UTC] PHP Fatal error:  Class 'Pow\Controllers\ControllerAbstract' not found in C:\www\reggie-2\php\Controllers\PostController.php on line 12
+[07-Jan-2019 21:10:20 UTC] PHP Fatal error:  Class 'Pow\Controllers\ControllerAbstract' not found in C:\www\reggie-2\php\Controllers\PostController.php on line 12
+[07-Jan-2019 21:10:42 UTC] PHP Fatal error:  Class 'Pow\Controllers\ControllerAbstract' not found in C:\www\reggie-2\php\Controllers\PostController.php on line 12
+[07-Jan-2019 21:11:00 UTC] PHP Fatal error:  Class 'Pow\Controllers\ControllerAbstract' not found in C:\www\reggie-2\php\Controllers\PostController.php on line 12
+[07-Jan-2019 21:11:37 UTC] PHP Fatal error:  Class 'Pow\Controllers\ControllerAbstract' not found in C:\www\reggie-2\php\Controllers\PostController.php on line 12
+[07-Jan-2019 21:12:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Pow\Models\Services\ModellingService' not found in C:\www\reggie-2\vendor\pow\framework\src\Modelling\Providers\ModellingServiceProvider.php:22
+Stack trace:
+#0 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(203): Pow\Modelling\Providers\ModellingServiceProvider->register(Array)
+#1 C:\www\reggie-2\public\wp\wp-mu-plugins\bootstrap-pow.php(25): Pow\Pow->trigger('plugins_loaded', Array)
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(286): {closure}('')
+#3 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 C:\www\reggie-2\public\wp\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\www\reggie-2\public\wp\wp-settings.php(327): do_action('plugins_loaded')
+#6 C:\www\reggie-2\public\wp-config.php(21): require_once('C:\\www\\reggie-2...')
+#7 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#8 C:\www\reggie-2\public\wp\wp-blog-header.php(13): require_once('C:\\www\\reggie-2...')
+#9 C:\www\regg in C:\www\reggie-2\vendor\pow\framework\src\Modelling\Providers\ModellingServiceProvider.php on line 22
+[07-Jan-2019 21:13:11 UTC] PHP Fatal error:  Class 'Pow\Controllers\ControllerAbstract' not found in C:\www\reggie-2\php\Controllers\PostController.php on line 12
+[07-Jan-2019 21:14:21 UTC] PHP Fatal error:  Uncaught ReflectionException: Class controller does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('controller')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('controller')
+#2 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(251): Illuminate\Container\Container->resolve('controller')
+#3 C:\www\reggie-2\public\wp-config.php(27): Pow\Pow->run()
+#4 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#5 C:\www\reggie-2\public\wp\wp-blog-header.php(13): require_once('C:\\www\\reggie-2...')
+#6 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#7 {main}
+  thrown in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:16:13 UTC] PHP Fatal error:  Class 'Pow\Controllers\ControllerAbstract' not found in C:\www\reggie-2\php\Controllers\PostController.php on line 12
+[07-Jan-2019 21:16:28 UTC] PHP Fatal error:  Class 'Pow\Controllers\ControllerAbstract' not found in C:\www\reggie-2\php\Controllers\PostController.php on line 12
+[07-Jan-2019 21:20:48 UTC] PHP Fatal error:  Uncaught ReflectionException: Class wp_query_result does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('wp_query_result')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('wp_query_result')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('wp_query_result', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('wp_query_result')
+#4 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): Illuminate\Container\Container->offsetGet('wp_query_result')
+#5 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_act in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:21:18 UTC] PHP Fatal error:  Uncaught ReflectionException: Class controller does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('controller')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('controller')
+#2 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(251): Illuminate\Container\Container->resolve('controller')
+#3 C:\www\reggie-2\public\wp-config.php(27): Pow\Pow->run()
+#4 C:\www\reggie-2\public\wp\wp-load.php(42): require_once('C:\\www\\reggie-2...')
+#5 C:\www\reggie-2\public\wp\wp-blog-header.php(13): require_once('C:\\www\\reggie-2...')
+#6 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#7 {main}
+  thrown in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:23:18 UTC] PHP Fatal error:  Uncaught ReflectionException: Class wp_query_result does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('wp_query_result')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('wp_query_result')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('wp_query_result', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('wp_query_result')
+#4 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(253): Illuminate\Container\Container->offsetGet('wp_query_result')
+#5 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_act in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:24:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class wp_query_result does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('wp_query_result')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('wp_query_result')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('wp_query_result', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('wp_query_result')
+#4 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): Illuminate\Container\Container->offsetGet('wp_query_result')
+#5 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_act in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:25:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function App\Controllers\PostController::render(), 0 passed in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 254 and exactly 2 expected in C:\www\reggie-2\php\Controllers\PostController.php:14
+Stack trace:
+#0 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): App\Controllers\PostController->render()
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-includes\class-wp.php(726): do_action_ref_array('wp', Array)
+#5 C:\www\reggie-2\public\wp\wp-includes\functions.php(960): WP->main('')
+#6 C:\www\reggie-2\public\wp\wp-blog-header.php(16): wp()
+#7 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#8 {main}
+  thrown in C:\www\reggie-2\php\Controllers\PostController.php on line 14
+[07-Jan-2019 21:25:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function App\Controllers\PostController::render(), 0 passed in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 254 and exactly 2 expected in C:\www\reggie-2\php\Controllers\PostController.php:14
+Stack trace:
+#0 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): App\Controllers\PostController->render()
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-includes\class-wp.php(726): do_action_ref_array('wp', Array)
+#5 C:\www\reggie-2\public\wp\wp-includes\functions.php(960): WP->main('')
+#6 C:\www\reggie-2\public\wp\wp-blog-header.php(16): wp()
+#7 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#8 {main}
+  thrown in C:\www\reggie-2\php\Controllers\PostController.php on line 14
+[07-Jan-2019 21:25:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Class wp_query_result does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('wp_query_result')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('wp_query_result')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('wp_query_result', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('wp_query_result')
+#4 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): Illuminate\Container\Container->offsetGet('wp_query_result')
+#5 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_act in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:25:52 UTC] PHP Fatal error:  Uncaught ReflectionException: Class wp_query_result does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('wp_query_result')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('wp_query_result')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('wp_query_result', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('wp_query_result')
+#4 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): Illuminate\Container\Container->offsetGet('wp_query_result')
+#5 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_act in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:26:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function App\Controllers\PostController::render(), 0 passed in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 254 and exactly 2 expected in C:\www\reggie-2\php\Controllers\PostController.php:14
+Stack trace:
+#0 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): App\Controllers\PostController->render()
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-includes\class-wp.php(726): do_action_ref_array('wp', Array)
+#5 C:\www\reggie-2\public\wp\wp-includes\functions.php(960): WP->main('')
+#6 C:\www\reggie-2\public\wp\wp-blog-header.php(16): wp()
+#7 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#8 {main}
+  thrown in C:\www\reggie-2\php\Controllers\PostController.php on line 14
+[07-Jan-2019 21:26:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function App\Controllers\PostController::render(), 0 passed in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 254 and exactly 2 expected in C:\www\reggie-2\php\Controllers\PostController.php:14
+Stack trace:
+#0 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): App\Controllers\PostController->render()
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-includes\class-wp.php(726): do_action_ref_array('wp', Array)
+#5 C:\www\reggie-2\public\wp\wp-includes\functions.php(960): WP->main('')
+#6 C:\www\reggie-2\public\wp\wp-blog-header.php(16): wp()
+#7 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#8 {main}
+  thrown in C:\www\reggie-2\php\Controllers\PostController.php on line 14
+[07-Jan-2019 21:26:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function App\Controllers\PostController::render(), 0 passed in C:\www\reggie-2\vendor\pow\framework\src\Pow.php on line 254 and exactly 2 expected in C:\www\reggie-2\php\Controllers\PostController.php:14
+Stack trace:
+#0 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): App\Controllers\PostController->render()
+#1 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#2 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#4 C:\www\reggie-2\public\wp\wp-includes\class-wp.php(726): do_action_ref_array('wp', Array)
+#5 C:\www\reggie-2\public\wp\wp-includes\functions.php(960): WP->main('')
+#6 C:\www\reggie-2\public\wp\wp-blog-header.php(16): wp()
+#7 C:\www\reggie-2\public\index.php(2): require('C:\\www\\reggie-2...')
+#8 {main}
+  thrown in C:\www\reggie-2\php\Controllers\PostController.php on line 14
+[07-Jan-2019 21:27:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function App\Controllers\PostController::render(), 0 passed and exactly 2 expected in C:\www\reggie-2\php\Controllers\PostController.php:14
+Stack trace:
+#0 [internal function]: App\Controllers\PostController->render()
+#1 C:\www\reggie-2\vendor\illuminate\container\BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 C:\www\reggie-2\vendor\illuminate\container\BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 C:\www\reggie-2\vendor\illuminate\container\BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Pow\Pow), Array, Object(Closure))
+#4 C:\www\reggie-2\vendor\illuminate\container\Container.php(572): Illuminate\Container\BoundMethod::call(Object(Pow\Pow), Array, Array, NULL)
+#5 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): Illuminate\Container\Container->call(Array)
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#7 C:\www\reggie-2\publi in C:\www\reggie-2\php\Controllers\PostController.php on line 14
+[07-Jan-2019 21:28:22 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('view')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('view')
+#2 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(226): Illuminate\Container\Container->resolve('view')
+#3 C:\www\reggie-2\php\Controllers\PostController.php(18): Pow\Pow->view('pages.posts')
+#4 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): App\Controllers\PostController->render('x', 'y')
+#5 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#8 C:\www\reggie-2\public\wp\wp-includes\class-wp.php(726): do_action_ref_array('wp', Array)
+#9 C in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:29:55 UTC] PHP Fatal error:  Uncaught ReflectionException: Class wp_query_result does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('wp_query_result')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('wp_query_result')
+#2 C:\www\reggie-2\vendor\illuminate\container\Container.php(609): Illuminate\Container\Container->resolve('wp_query_result', Array)
+#3 C:\www\reggie-2\vendor\illuminate\container\Container.php(1222): Illuminate\Container\Container->make('wp_query_result')
+#4 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): Illuminate\Container\Container->offsetGet('wp_query_result')
+#5 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_act in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779
+[07-Jan-2019 21:30:14 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in C:\www\reggie-2\vendor\illuminate\container\Container.php:779
+Stack trace:
+#0 C:\www\reggie-2\vendor\illuminate\container\Container.php(779): ReflectionClass->__construct('view')
+#1 C:\www\reggie-2\vendor\illuminate\container\Container.php(658): Illuminate\Container\Container->build('view')
+#2 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(226): Illuminate\Container\Container->resolve('view')
+#3 C:\www\reggie-2\php\Controllers\PostController.php(18): Pow\Pow->view('pages.posts')
+#4 C:\www\reggie-2\vendor\pow\framework\src\Pow.php(254): App\Controllers\PostController->render('x', 'y')
+#5 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(284): Pow\Pow->Pow\{closure}()
+#6 C:\www\reggie-2\public\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 C:\www\reggie-2\public\wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#8 C:\www\reggie-2\public\wp\wp-includes\class-wp.php(726): do_action_ref_array('wp', Array)
+#9 C in C:\www\reggie-2\vendor\illuminate\container\Container.php on line 779

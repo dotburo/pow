@@ -84,7 +84,10 @@ return [
     # @see https://codex.wordpress.org/Function_Reference/add_post_type_support
     #
     'support' => [
-        'attachment' => [
+        'event' => [
+            'slug'              => false,
+        ],
+        /*'attachment' => [
             'title'             => true,
             'slug'              => false,
             'comments'          => false,
@@ -95,14 +98,11 @@ return [
             'display-settings'  => true,
             'single'            => false,
         ],
-        'event' => [
-            'slug'              => false,
-        ],
         'post' => [
             'title'             => true,
             'slug'              => false,
             'editor'            => true,
-            'comments'          => false,
+            'comments'          => true,
             'author'            => false,
             'thumbnail'         => true,
             'excerpt'           => false,
@@ -119,7 +119,7 @@ return [
             'comments'       => false,
             'custom-fields'  => false,
             'page-attributes'=> false
-        ]
+        ]*/
     ],
 
 ];

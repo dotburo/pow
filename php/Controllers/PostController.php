@@ -1,6 +1,6 @@
 <?php namespace App\Controllers;
 
-use Pow\Controllers\ControllerAbstract;
+use Pow\Abstracts\Controller;
 
 /**
  * Posts Controller
@@ -9,11 +9,11 @@ use Pow\Controllers\ControllerAbstract;
  * @version 0.0.0
  * @since 0.0.0
  */
-class PostController extends ControllerAbstract
+class PostController extends Controller
 {
     public function render($models, $wp_query)
     {
-        //echo 'PostController render!', '<br>';
+        echo 'PostController render!', '<br>';
         //dd($models, $wp_query);
         $this->app->view('pages.posts');
     }

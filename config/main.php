@@ -21,34 +21,14 @@ return [
         'view-site-submenu' => false
     ],
 
-
-    #
-    # Services for the application service container
-    # ````
-    #
-    'bootstrap' => [
-
-        'muplugins_loaded' => [],
-
-        'plugins_loaded' => [
-            \Pow\Bootstrap\RegisterProviders::class,
-            \Pow\Bootstrap\BindController::class,
-            \Pow\Bootstrap\ModelQueryResults::class,
-        ],
-
-        'init' => [
-            \Pow\Bootstrap\RegisterUser::class,
-        ]
-    ],
-
-
     #
     # Services for the application service container
     # ````
     #
     'providers' => [
-        Pow\Providers\EventServiceProvider::class,
+
         Illuminate\Filesystem\FilesystemServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Pow\NoComments\NoCommentsProvider::class,
     ]
 ];

@@ -15,12 +15,6 @@ $app = new Pow\Pow(
 );
 
 #
-# Define environment variables & WordPress constants
-# ````
-#
-new \Pow\Configuration\LoadEnvironment($app->getBasePath());
-
-#
 # Load most of WordPress
 # ````
 #
@@ -30,6 +24,5 @@ require_once(ABSPATH . 'wp-settings.php');
 # Run
 # ````
 #
-if ($app->WP_SIDE === 'site') {
-    $app->run();
-}
+$app->run();
+

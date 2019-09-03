@@ -22,6 +22,6 @@ $actions = [
 
 array_walk($actions, function ($name) {
     add_action($name, function (...$args) use ($name) {
-        app()->bootstrap($name, $args);
+        app()->trigger($name, $args);
     }, PHP_INT_MAX, 10);
 });

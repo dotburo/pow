@@ -14,7 +14,7 @@
   "authors": [
     {
       "name": "dotburo",
-      "email": "hello@dotburo.org",
+      "email": "pow@dotburo.org",
       "homepage": "https://dotburo.org"
     }
   ],
@@ -26,7 +26,8 @@
   "require": {
     "php": ">=7.1",
     "johnpbloch/wordpress": "4.9.6",
-    "dotburo/pow-framework": "*"
+    "pow/framework": "*",
+    "pow/no-comments": "*"
   },
   "autoload": {
     "files": [
